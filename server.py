@@ -1,0 +1,1 @@
+# -*- coding: UTF-8 -*-from tool.service import *if __name__ == '__main__':    HOST = '127.0.0.1'    PORT = 9090    ADDR = (HOST, PORT)    Handler =""    Ser = Server(ADDR, Handler)    Ser.connect()    Ser.send("Fuck you")    pass
